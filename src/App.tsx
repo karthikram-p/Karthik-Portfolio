@@ -10,9 +10,16 @@ import { ContactSection } from './components/contact-section';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white relative overflow-x-hidden">
+      {/* Single white glow background effect */}
+      <div
+        aria-hidden
+        className="pointer-events-none fixed inset-0 z-0"
+      >
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[40vh] rounded-full bg-white opacity-20 blur-3xl" />
+      </div>
       <NavHeader />
-      <main>
+      <main className="relative z-10">
         <HeroSection />
         <AboutSection />
         <EducationSection />
@@ -24,5 +31,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
