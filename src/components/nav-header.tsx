@@ -333,7 +333,7 @@ export function NavHeader() {
                 <div className="w-px h-6 bg-white/10 mx-2" />
 
                 <a
-                  href="https://drive.google.com/file/d/1P9CH4alWsDv_B_4iAQH_tKolef5e6Vco/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1C9Z9Xd7QHBNodOLUYLdLpQ_IRuO8ZN7O/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block"

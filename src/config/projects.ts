@@ -31,20 +31,30 @@ export const projects: Project[] = [
     color: "from-blue-600 to-cyan-700",
   },
   {
-    id: "communio-social-media-website",
-    title: "Communio",
-    subtitle: "Social Media App",
-    description:
-      "Developed a full-stack social media app with real-time posting, likes, comments, and user authentication. Built with the MERN stack, secured with JWT, styled using Tailwind CSS, and integrated Cloudinary for media uploads.",
-    tech: ["MongoDB", "Express", "React", "Node.js", "JWT", "Tailwind CSS", "Cloudinary"],
-    links: {
-      website: "https://blabber-lzpa.onrender.com/",
-      github: "https://github.com/karthikram-p/Communio",
-      video: undefined,
-    },
-    preview: "https://i.postimg.cc/g0w9tvxN/Screenshot-2025-06-21-190916.png",
-    color: "from-green-500 to-teal-600",
+  id: "communio-skill-exchange-platform",
+  title: "Communio",
+  subtitle: "Skill Exchange & Social Platform",
+  description:
+    "A modern full-stack platform for collaborative skill sharing, project ideas, team formation, and community engagement. Features real-time notifications, direct and community messaging, hackathon team formation, advanced search, and personalized course recommendations. Built with the MERN stack, JWT authentication, Tailwind CSS, and Cloudinary for media uploads.",
+  tech: [
+    "MongoDB",
+    "Express",
+    "React",
+    "Node.js",
+    "JWT",
+    "Tailwind CSS",
+    "Cloudinary",
+    "Streamlit",
+    "Python"
+  ],
+  links: {
+    website: "https://blabber-lzpa.onrender.com/",
+    github: "https://github.com/karthikram-p/Communio",
+    video: undefined
   },
+  preview: "https://i.postimg.cc/c4NpwL5Z/Screenshot-2025-08-10-194032.png",
+  color: "from-blue-500 to-indigo-600"
+},
   {
     id: "destination-delight-travel-booking-platform",
     title: "Destination Delight",
