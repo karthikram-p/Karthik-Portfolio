@@ -35,17 +35,16 @@ export const projects: Project[] = [
   title: "Communio",
   subtitle: "Skill Exchange & Social Platform",
   description:
-    "A modern full-stack platform for collaborative skill sharing, project ideas, team formation, and community engagement. Features real-time notifications, direct and community messaging, hackathon team formation, advanced search, and personalized course recommendations. Built with the MERN stack, JWT authentication, Tailwind CSS, and Cloudinary for media uploads.",
+  "A full-stack platform for skill sharing, team formation, and community engagement with real-time messaging and personalized recommendations.",
   tech: [
-    "MongoDB",
-    "Express",
-    "React",
-    "Node.js",
+    "MERN",
     "JWT",
     "Tailwind CSS",
     "Cloudinary",
     "Streamlit",
-    "Python"
+    "Python",
+    "TF-IDF",
+    "Cosine Similarity"
   ],
   links: {
     website: "https://blabber-lzpa.onrender.com/",
