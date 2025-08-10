@@ -1,6 +1,9 @@
 import React from 'react';
 import { NavHeader } from './components/nav-header';
 import { HeroSection } from './components/hero-section';
+import React from 'react';
+import { NavHeader } from './components/nav-header';
+import { HeroSection } from './components/hero-section';
 import { AboutSection } from './components/about-section';
 import { EducationSection } from './components/education-section';
 import { TechStackSection } from './components/tech-stack-section';
@@ -16,7 +19,7 @@ function App() {
         aria-hidden
         className="pointer-events-none fixed inset-0 z-0"
       >
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[40vh] rounded-full bg-white opacity-20 blur-3xl" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] h-[70vh] rounded-full bg-white opacity-40 blur-[120px]" />
       </div>
       <NavHeader />
       <main className="relative z-10">
@@ -31,8 +34,4 @@ function App() {
     </div>
   );
 }
-<<<<<<< HEAD
 export default App;
-=======
-export default App;
->>>>>>> 977a775bfc7f40905e18c875889ea9c2e6862676
