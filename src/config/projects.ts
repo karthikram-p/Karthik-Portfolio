@@ -35,7 +35,7 @@ export const projects: Project[] = [
   title: "Communio",
   subtitle: "Skill Exchange & Social Platform",
   description:
-  "A full-stack platform for skill sharing, team formation, and community engagement with real-time messaging and personalized recommendations.",
+  "Built a MERN stack platform for collaborative skill sharing, project ideas, and team formation. Includes real-time notifications, messaging, hackathon team creation, advanced search, and personalized course recommendations with JWT authentication and media uploads.",
   tech: [
     "MERN",
     "JWT",
